@@ -1,0 +1,44 @@
+.task-li {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  align-items: center;
+  border: 1px solid #dedbdb;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+.acivie-bg {
+  background-color: rgb(251, 251, 245);
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.complted {
+  text-decoration: line-through;
+}
+
+.btn {
+  border: none;
+  background-color: transparent;
+}
+
+.icon {
+  font-size: 20px;
+}
+
+.tickIcon {
+  color: green;
+}
+
+.task-li:hover .crossIcon {
+  color: rgb(42, 4, 42);
+}
+
+.crossIcon {
+  color: #d3d1d1;
+}
