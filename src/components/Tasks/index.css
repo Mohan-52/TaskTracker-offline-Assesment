@@ -69,3 +69,18 @@ body {
   margin: 20px 0;
   color: rgb(165, 165, 164);
 }
+
+@media (max-width: 686px) {
+  .form {
+    flex-direction: column;
+  }
+
+  .text-input {
+    width: 100%;
+  }
+
+  .add-btn {
+    width: 100%;
+    justify-content: center;
+  }
+}
